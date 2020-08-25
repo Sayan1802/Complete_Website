@@ -11,7 +11,7 @@ body, html {
 }
 
 .back-bg-color-business{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.5);
   width: 100%;
   height: 100%;
   position: relative;
@@ -24,7 +24,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6{
   position: relative;
-  opacity: 0.6;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,8 +32,9 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 60%;
+  height: 65%;
   scroll-behavior: smooth;
+  background-size: 100% 100%;
 }
 
 .banner-business-service{
@@ -41,19 +42,8 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60%;
+  height: 65%;
   background-attachment: scroll;
-}
-
-.nav-link-btn-company-bottom-nav{
-  color: #000;
-  transform: color;
-  transition-duration: 500ms;
-}
-.nav-link-btn-company-bottom-nav:hover{
-  color: #ea7b6a;
-  transform: color;
-  transition-duration: 500ms;
 }
 
 @keyframes glow-flex{
@@ -99,47 +89,99 @@ body, html {
   animation-timing-function: ease-in-out;
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 45%;
   width: 100%;
   text-align: center;
 }
 
 .bgimg-1 {
-  background-image: url("Images/img1.jpg");
+  background-image: url("Images/idea\ identification.png");
 }
  
 .bgimg-2 {
-  background-image: url("Images/img2.jpg");
+  background-image: url("Images/legal\ foundation.png");
 }
 
 .bgimg-3 {
-  background-image: url("Images/img3.jpg");
+  background-image: url("Images/understanding\ financial\ basics.png");
 }
 
 .bgimg-4{
-  background-image: url("Images/img4.jpg");
+  background-image: url("Images/business\ planning.png");
 }
 
 .bgimg-5{
-  background-image: url("Images/img5.jpg");
+  background-image: url("Images/Fundraising.png");
 }
 
 .bgimg-6{
-  background-image: url("Images/img6.jpg");
+  background-image: url("Images/pitching\ &\ termsheet.png");
+}
+
+.back-bg-color-caption{
+  background-color: rgb(255, 255, 255, 0.4);
+  height: 100%; 
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border-business {
+  color: #af4332;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+.text-1 h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+}
+
+.text-2 h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 375px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
     background-attachment: scroll;
   }
+  .bgimg-1{
+    background-image: url('./Images/mobile_ideaIdentification.png');
+  }
+  .bgimg-2{
+    background-image: url('./Images/mobile_legal\ foundation.png');
+  }
+  .bgimg-3{
+    background-image: url('./Images/mobile_financial\ statistics.png');
+  }
+  .bgimg-4{
+    background-image: url('./Images/mobile_business\ planning.png');
+  }
+  .bgimg-5{
+    background-image: url('./Images/mobile_fundraising.png');
+  }
+  .bgimg-6{
+    background-image: url('./Images/mobile_pitching\ and\ termsheet.png');
+  }
+
 }
 
 .text-1{
   color: #777;
   background-color:white;
   text-align:center;
-  padding:50px 80px;
+  padding:30px 80px;
   text-align: justify;
   scroll-behavior: smooth;
 }
@@ -148,13 +190,24 @@ body, html {
   color:#ddd;
   background-color:#5a5d61;
   text-align:center;
-  padding:50px 80px;
+  padding:50px 50px;
   text-align: justify;
   scroll-behavior: smooth;
 }
 
 .text-center{
   text-align: center;
+}
+
+.nav-link-btn-company-bottom-nav{
+  color: #000;
+  transform: color;
+  transition-duration: 500ms;
+}
+.nav-link-btn-company-bottom-nav:hover{
+  color: #ea7b6a;
+  transform: color;
+  transition-duration: 500ms;
 }
 
 .collapse .navbar-nav .nav-item .nav-link {

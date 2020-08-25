@@ -17,19 +17,21 @@ body, html {
 
 .bgimg-blog{
     position: relative;
-    background-attachment: fixed;
+	background-size: 100% 100%;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    scroll-behavior: smooth;
     height: 60%;
   }
+  
   .bgimg-blog {
-    background-image: url("Images/blogs.jpg");
+    background-image: url("Images/Blogs.png");
   }
+  @media only screen and (max-device-width: 375px) {
+    .bgimg-blog {
+        background-image: url("Images/mobile_blogs.png");
+        }
+}
   
   
   .back-bg-color{
@@ -45,28 +47,6 @@ body, html {
     width: 100%;
     text-align: center;
   }
-  
-@keyframes reveal {
-    80%{
-        letter-spacing: 8px;
-    }
-    100% {
-        background-size: 300% 300%;
-    }
-}
-
-@keyframes glow {
-    40% {
-        text-shadow: 0 0 5px #ea7e6e;
-    }
-    
-    80% {
-        text-shadow: 0 0 10px #ea7e6e;
-    }
-    100% {
-        text-shadow: 0 0 5px #ea7e6e;
-    }
-}
 
 .blog-banner-text {
     background-color: transparent;
@@ -77,8 +57,6 @@ body, html {
     background-clip: padding-box;
     font-size: 8vw;
     font-family: sans-serif;
-    animation: reveal 3000ms ease-in-out forwards,
-                glow 2500ms linear infinite;
 }  
 
 .main-row{

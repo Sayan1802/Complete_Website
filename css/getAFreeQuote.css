@@ -1,13 +1,9 @@
 html, body{
     height: 100%;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 .theme-color{
     color: #f1a69a;
-}
-
-.home-logo{
-    box-shadow: 0px 0px 5px 5px #e8715f;
 }
 
 .side-bar-border{
