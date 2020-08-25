@@ -38,32 +38,32 @@ $(document).ready(function(){
             <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Get A Free Quote</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Company Profile</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Blogs</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Disclaimer</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="freeQuote.html">Get A Free Quote</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Company Profile</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Blog.html">Blogs</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Privacy_Policy.html">Disclaimer</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Contact_Us.html">Contact Us</a></li>
             </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Android App Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Hybrid App Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">iOS Develpment</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Magneto</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">PHP</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">WordPress</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Internet Marketing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">SEO</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Idea Identification & Assessment</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Building a Legal Foundation</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Understanding Financial Basics</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Business Planning & Modeling</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Fund Raising & Valuation</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Pitching & Term Sheet</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">Android App Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">Hybrid App Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">iOS Develpment</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">Web Development</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">Magneto</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">PHP</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">WordPress</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">Internet Marketing</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="it_services.html">SEO</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Idea Identification & Assessment</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Building a Legal Foundation</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Understanding Financial Basics</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Business Planning & Modeling</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Fund Raising & Valuation</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="BusinessServices.html">Pitching & Term Sheet</a></li>
             </ul>
             </div>
 
