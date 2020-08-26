@@ -55,6 +55,47 @@ body{
     transform: color;
     transition-duration: 500ms;
   }
+
+@keyframes glow-flex{
+    5%{
+      letter-spacing: 0.1px;
+      text-shadow: 0.5px 0.5px 2px #e76e5c;
+      opacity: 0.99;
+    }
+    10%{
+      letter-spacing: 0.15px;
+      text-shadow: 1px 1px 4px #ea7e6e;
+      opacity: 0.95;
+    }
+    15%{
+      letter-spacing: 0.2px;
+      text-shadow: 1.5px 1.5px 6px #e96450;
+      opacity: 0.9;
+    }
+    20%{
+      letter-spacing: 0.25px;
+      text-shadow: 2px 2px 8px #e6543e;
+      opacity: 0.85;
+    }
+    25%{
+      letter-spacing: 0.3px;
+      text-shadow: 2.5px 2.5px 10px #e0432b;
+      opacity: 0.80; 
+    }
+    30%{
+      letter-spacing: 0.35px;
+      text-shadow: 3px 3px 12px #e7371c; 
+      opacity: 0.75;
+    }
+  }
+
+.banner-text{
+	animation-name: glow-flex;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 500ms;
+  animation-timing-function: ease-in-out;
+}
   
   /********* each heading **********/
   .background-hr{
