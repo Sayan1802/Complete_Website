@@ -40,6 +40,55 @@ body, html {
     height: 100%;
   }
 
+ @keyframes glow-flex{
+    5%{
+      letter-spacing: 0.2px;
+      text-shadow: 0.5px 0.5px 2px #e76e5c;
+      opacity: 0.95;
+    }
+    10%{
+      letter-spacing: 0.5px;
+      text-shadow: 1px 1px 4px #ea7e6e;
+      opacity: 0.9;
+    }
+    15%{
+      letter-spacing: 0.7px;
+      text-shadow: 1.5px 1.5px 6px #e96450;
+      opacity: 0.85;
+    }
+    20%{
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 8px #e6543e;
+      opacity: 0.8;
+    }
+    25%{
+      letter-spacing: 1.2px;
+      text-shadow: 2.5px 2.5px 10px #e0432b;
+      opacity: 0.75; 
+    }
+    30%{
+      letter-spacing: 2px;
+      text-shadow: 3px 3px 12px #e7371c; 
+      opacity: 0.7;
+    }
+  }
+  .blog-banner-text {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 5px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    font-size: 8vw;
+    font-family: sans-serif;
+	animation-name: glow-flex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+    animation-timing-function: ease-in-out;
+	  
+}
+
 .caption {
     position: absolute;
     left: 0;
