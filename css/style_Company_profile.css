@@ -18,6 +18,11 @@ body{
     background-color: #ffffff;
     
 }
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
   
 
 .container {
