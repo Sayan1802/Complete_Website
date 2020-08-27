@@ -405,8 +405,10 @@ background-color: #777;
   height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
-  padding: 7%;
+  background-color: rgba(0,0,0,0.7);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 8%;
 }
 
 .modal-content {
@@ -416,16 +418,41 @@ background-color: #777;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
+    padding-bottom: 10px;
+    overflow: scroll;
 }
 
 /* The Close Button */
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: bold;
+}
+input, textarea{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  padding-left: 8px;
+}
+input:focus,
+textarea:focus
+{
+  box-shadow: 0px 0px 3px 3px rgba(234,126,109, 0.6)
+}
+input[type="submit"]{
+  border: 3px solid #e8715f;
+  outline: none;
+  width: 30%;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 8px 8px rgba(234,126,109, 0.6)
+}
+input[type="submit"]:hover{
+  box-shadow: 0px 0px 10px 10px rgba(234,126,109, 0.6)
 }
 
 .close:hover,
