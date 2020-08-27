@@ -441,7 +441,7 @@ textarea:focus
 {
   box-shadow: 0px 0px 3px 3px rgba(234,126,109, 0.6)
 }
-form input[type="submit"]{
+.press[type="submit"]{
   border: 3px solid #e8715f;
   outline: none;
   width: 30%;
@@ -451,6 +451,7 @@ form input[type="submit"]{
   margin-bottom: 10px;
   box-shadow: 0px 0px 8px 8px rgba(234,126,109, 0.6)
 }
+
 form input[type="submit"]:hover{
   box-shadow: 0px 0px 10px 10px rgba(234,126,109, 0.6)
 }
