@@ -37,12 +37,21 @@ body .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgim
 }
 
 .banner-business-service{
-  background-image: url('Images/bgimg-it-services-1.jpg');
+  background-image: url('Images/IT_services1.png');
   background-position: center;
   background-repeat: no-repeat;
-  height: 65%;
+  height: 72%;
   background-attachment: scroll;
 }
+
+@media only screen and (max-device-width: 375px) {
+  .banner-business-service {
+     background-attachment: scroll;
+   }
+   .banner-business-service{
+     background-image: url('Images/IT_service_Mobile.png');
+   }
+ }
 
 @keyframes glow-flex{
   5%{
