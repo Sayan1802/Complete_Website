@@ -38,11 +38,11 @@ body, html {
 }
 
 .banner-business-service{
-  background-image: url('Images/Business_Services.png');
+  background-image: url('Images/Business_Services1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 68%;
+  height: 72%;
   background-attachment: scroll;
 }
 
