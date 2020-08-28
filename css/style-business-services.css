@@ -38,12 +38,21 @@ body, html {
 }
 
 .banner-business-service{
-  background-image: url('Images/businessServiceBanner.jpg');
+  background-image: url('Images/Business_Services.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 65%;
+  height: 68%;
   background-attachment: scroll;
+}
+
+@media only screen and (max-device-width: 375px) {
+ .banner-business-service {
+    background-attachment: scroll;
+  }
+  .banner-business-service{
+    background-image: url('Images/business_service_mobile.png');
+  }
 }
 
 @keyframes glow-flex{
