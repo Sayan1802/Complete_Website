@@ -39,6 +39,7 @@ body .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgim
 .banner-business-service{
   background-image: url('Images/IT_services1.png');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 72%;
   background-attachment: scroll;
