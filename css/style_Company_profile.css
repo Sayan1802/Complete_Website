@@ -36,9 +36,15 @@ margin: 0 auto;
 
 .back-banner{
   background-image: url('Images/Comapny_Profile.png');
-  width: 100%;
-  height: 100%;
+  height: 73%;
   background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For larger screens */
+@media only screen and (min-width: 400px) {
+  
 }
 
 .back-bg-color{
@@ -87,7 +93,7 @@ margin: 0 auto;
   }
 }
 
-.banner-text{
+.banner-business-service-text{
 animation-name: glow-flex;
 animation-duration: 5s;
 animation-iteration-count: infinite;
