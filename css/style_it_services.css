@@ -258,6 +258,12 @@ body .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgim
 .bg-none .navbar-collapse{
   background-color: #ea7e6e;
   z-index: 9;
+  text-align: center;
+}
+
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
 }
 
 @media (min-width: 992px){
