@@ -11,6 +11,12 @@ html, body{
     right: 10%;
 }
 
+@media only screen and (max-device-width: 375px){
+    header .close{
+        margin-right: 0;
+    }
+}
+
 /**********side bar wiht numbe in back and text in front**********/
 .container-side-bar{
     position: relative;
