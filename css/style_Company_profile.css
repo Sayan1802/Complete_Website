@@ -529,3 +529,10 @@ form input[type="submit"]:hover{
   cursor: pointer;
 }
 
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
+}
+
+
+
