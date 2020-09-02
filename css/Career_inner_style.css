@@ -102,6 +102,12 @@ body, html {
   .bg-none .navbar-collapse{
     background-color: #ea7e6e;
     z-index: 9;
+    text-align: center;
+  }
+
+  .navbar-toggler{
+    outline: none !important;
+    border: none !important;
   }
   
   @media (min-width: 992px){
