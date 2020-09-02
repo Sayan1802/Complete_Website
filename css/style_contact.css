@@ -14,6 +14,16 @@ html{
   background-size: cover;
   padding: 40px 0;
 }
+
+@media only screen and (max-device-width: 375px){
+  .contact-section{
+    background: url(Images/pexels_negative_spac_zaD98_mobile.jpg)no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+}
+
+
 .contact-section h1{
   text-align: center;
   color:#2f3542;
@@ -142,10 +152,19 @@ textarea.contact-form-text{
   color: #ea7e6e;
 }
 
+.bg-none .navbar-collapse{
+ text-align: center;
+}
+
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
+}
+
 @media (min-width: 992px){
   .hero li {
-      margin-left : 3em;
-      margin-right : 3em;
+      margin-left : 3rem;
+      margin-right: 3rem;     
   }
 }
 
