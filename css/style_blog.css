@@ -8,11 +8,11 @@ body, html {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: black;
+    color: white;
 }
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: white;
+    color: #ea7e6e;
 }
 
 .bgimg-blog{
@@ -35,7 +35,7 @@ body, html {
   
   
   .back-bg-color{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
   }
@@ -146,7 +146,7 @@ body, html {
 }
 
 .bg-none .navbar-collapse{
-    background-color: #ea7e6e;
+    background-color: none;
     z-index: 9;
     text-align: center;
   }
@@ -245,4 +245,16 @@ body, html {
 }
 .footer-icon:hover{
     transform: translate(0px, -10px);
+}
+
+.n1, .n2{
+  color: white;
+}
+
+.n1:hover{
+  color: #e76e5c;
+}
+
+.n2:hover{
+  color: #e76e5c;
 }
