@@ -19,12 +19,12 @@ div .xop-right{
   justify-content: center;
 }
 
-.xop-container {
-    display: grid;
-}
-
 body .bar {
  text-align: left;
+}
+
+.xop-container {
+    display: grid;
 }
 
 .xop-left {
@@ -112,6 +112,11 @@ body .bar {
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
   color: #ea7e6e;
+}
+
+.navbar-toggler{
+  outline: none !important;
+  border: none !important;
 }
 
 @media (min-width: 992px){
