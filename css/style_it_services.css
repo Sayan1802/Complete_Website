@@ -45,7 +45,7 @@ body .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgim
   background-attachment: scroll;
 }
 
-@media only screen and (max-device-width: 375px) {
+@media only screen and (max-device-width: 768px) {
   .banner-business-service {
      background-attachment: scroll;
    }
