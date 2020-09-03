@@ -15,7 +15,7 @@ html{
   padding: 40px 0;
 }
 
-@media only screen and (max-device-width: 375px){
+@media only screen and (max-device-width: 768px){
   .contact-section{
     background: url(Images/pexels_negative_spac_zaD98_mobile.jpg)no-repeat center;
     background-size: cover;
