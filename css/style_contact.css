@@ -79,10 +79,11 @@ textarea.contact-form-text{
 .contact-info{
   display: flex;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px;
   align-items: center;
   justify-content: center;
   padding: 0 20px;
+  background: #2f3542;
 }
 
 .card{
