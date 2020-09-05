@@ -20,6 +20,7 @@ html{
     background: url(Images/pexels_negative_spac_zaD98_mobile.jpg)no-repeat center;
     background-size: cover;
     padding: 40px 0;
+    image-resolution: 72dpi;
   }
 }
 
@@ -96,6 +97,9 @@ textarea.contact-form-text{
   align-items: center;
   color: #fff;
   cursor: pointer;
+  padding-top: 30px;
+  border: none !important;
+  outline: none !important;
 }
 
 .card-icon{
@@ -130,6 +134,8 @@ textarea.contact-form-text{
 }
 
 
+
+
 @media screen and (max-width:800px) {
   .contact-info{
     flex-direction: column;
@@ -140,9 +146,9 @@ textarea.contact-form-text{
     margin: 10px 0;
   }
 }
- body{
-   background-color: #2f3542;
- }
+body{
+  background-color: #fafafa;
+}
 
  .navbar-nav .nav-item .nav-link {
   color: black;
