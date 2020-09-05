@@ -4,9 +4,14 @@ html, body, section {
     height: 100%;
 }
 body {
-    color: #fff;
+    background-color: #fafafa;
     text-align: center;
 }
+
+h1{
+  color: #fff;
+}
+
 div .xop-left{
     display: flex;
     flex-direction: column;
