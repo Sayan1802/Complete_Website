@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    background-color: #fafafa;
 }
 .theme-color{
     color:#ea7e6e;
